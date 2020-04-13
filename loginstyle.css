@@ -1,0 +1,58 @@
+body {
+    background-image:url(back_login.jpg);
+    background-position: top;
+    background-size: 1600px;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+#plate_login {
+    margin-left: 11%;
+    margin-top: 150px;
+    width: 100%;
+    height: 23%;
+    background-color: rgba(0,0,0,0.5);
+    font-size: 25px;
+    padding: 40px;
+    color: rgb(228, 220, 220);
+}
+#username {
+    margin-left: 25px;
+}
+#icon{
+    width: 100px;
+    border-radius: 50px;
+    margin-left: 35%;
+    transform: translate(0%,-70%);
+}
+#titre{
+    text-align: center;
+    margin-top: -50px;
+    color: silver;
+}
+@media (max-width: 522px)
+{
+    fieldset{
+        margin-left: -8%;
+        margin-right: auto;
+    }
+    #icon{
+    width: 100px;
+    border-radius: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+    transform: translate(0%,-70%);
+}
+    #password{
+        margin-left: 25px;
+    }
+    #plate_login{
+    margin-left: 2%;
+    margin-right: auto;
+    margin-top: 150px;
+    width: 60%;
+    height: 23%;
+    font-size: 19px;
+    padding: 40px;
+    color: rgb(228, 220, 220);
+    }
+}
